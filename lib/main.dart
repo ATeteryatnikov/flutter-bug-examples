@@ -46,8 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             ElevatedButton(
               onPressed: _openFile,
-              child: Column(
-                children: [const Text('Try download and open video'), const Icon(Icons.play_arrow)],
+              child: const Column(
+                children: [Text('Try download and open video'), Icon(Icons.play_arrow)],
               ),
             ),
           ],
